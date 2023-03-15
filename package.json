@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://stolbin.github.io/IceCreame/",
+  "homepage": "https://stolbin.github.io/Ice-Creame/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /IceCreame/"
+    "build": "parcel build src/*.html --public-url /Ice-Creame/"
   },
   "repository": {
     "type": "git",
