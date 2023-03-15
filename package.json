@@ -2,7 +2,7 @@
   "name": "icecreame",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Stolbin.github.io/IceCreame",
+  "homepage": "https://stolbin.github.io/IceCreame",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /IceCreame/"
