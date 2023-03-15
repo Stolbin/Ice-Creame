@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://stolbin.github.io/IceCreame",
+  "homepage": "https://stolbin.github.io/IceCreame/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /IceCreame/"
@@ -27,6 +27,9 @@
     "@parcel/transformer-webmanifest": "^2.8.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
+  },
+  "alias": {
+    "process": false
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
