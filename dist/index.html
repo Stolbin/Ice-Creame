@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.cd955c7e.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.e1f0fdcb.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.ebc231f6.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.67559c01.svg" color="#84a178">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#84a178">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Seymour+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="/index.b07a87f3.css">
+  </head>
+
+  <body>
+    <header class="header">
+  <div class="container header__container" id="home">
+    <a href="#" class="logo">
+      <picture>
+        <source srcset="/logo.c493797d.png 1x, /logo-2x.512da203.png 2x" media="(min-width: 1200px)">
+
+        <source srcset="/logo-tab.1668ecf3.png, /logo-tab-2x.fb9ff968.png 2x" media="(min-width: 768px)">
+
+        <source srcset="/logo-mob.40964210.png 1x, /logo-mob-2x.4c143730.png 2x" media="(max-width: 767px)">
+
+        <img class="header__logo" src="/logo.c493797d.png" alt="site logo icecream">
+      </picture>
+    </a>
+
+    <ul class="header__list-desktop">
+      <li class="header__item-desktop">
+        <a class="header__link-desktop" href="#">Home</a>
+      </li>
+
+      <li class="header__item-desktop">
+        <a class="header__link-desktop" href="#about">How it's made?</a>
+      </li>
+
+      <li class="header__item-desktop">
+        <a class="header__link-desktop" href="#products">Our products</a>
+      </li>
+
+      <li class="header__item-desktop">
+        <a class="header__link-desktop" href="#contacts">Contact</a>
+      </li>
+    </ul>
+
+    <ul class="header__list">
+      <li>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
+          <svg width="32" height="32" aria-label="переключає мобільне меню">
+            <use class="icon-cross" href="/icon.a422163e.svg#menu"></use>
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="header__button header__button--yellow js-open-modal" data-modal="2">
+          Buy now<svg width="12" height="12">
+            <use class="button__arrow" href="/icon.a422163e.svg#arrow-btn"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <!--back to home-->
+
+  <a href="#home" class="back-to-home"></a>
+</header>
+
+<!--hero-->
+
+<section class="hero">
+  <div class="container hero__container container--bottom-radius">
+    <div class="hero__wrap hero__wrap--top">
+      <div class="hero__wrap hero__wrap--left">
+        <h1 class="hero__title">
+          ice cream made with <span class="accent">passion</span>
+        </h1>
+        <ul class="hero__list hero__list--left">
+          <li>
+            <a href="#products" class="hero__button hero__button--flex-body">Products</a>
+          </li>
+
+          <li>
+            <a href="#about" class="hero__button hero__button--without-body hero__button--flex">How it's made?</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero__wrap hero__wrap--right">
+        <ul>
+          <li class="hero__item hero__item--right">
+            <span>16</span>
+            <p class="hero__text hero__text--after-span">cafes</p>
+          </li>
+          <li class="hero__item hero__item--right">
+            <span>23</span>
+            <p class="hero__text hero__text--after-span">food trucks</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero__wrap hero__wrap--bottom">
+      <picture class="hero-img hero-img__plate">
+        <source srcset="/hero-round.e3b40b3e.png 1x, /hero-round-2x.426845ba.png 2x" media="(min-width: 1200px)" width="225" height="225">
+
+        <source srcset="/hero-round-tab.a060338f.png 1x, /hero-round-tab-2x.c753e952.png 2x" media="(min-width: 768px)">
+
+        <img src="/hero-round-tab.a060338f.png" alt="plate with icecream" width="152" height="152">
+      </picture>
+
+      <div class="hero__list hero__list--bottom">
+        <p class="hero__text hero__text--botton">
+          We made ice cream with a delicate taste. Made with milk, cream, sugar
+          and natural stabilizer. Our ice cream is made with love for you.
+        </p>
+
+        <button type="button" class="icon-bottom js-open-modal" data-modal="3">
+          <svg class="icon-bottom_focus" width="40" height="15">
+            <use href="/icon.a422163e.svg#arrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <picture class="canvas-bubbles">
+      <source class="canvas-bubbles__desktop" srcset="/hero-bgr-dots.f1eaf95c.png 1x, /hero-bgr-dots-2x.748c73a9.png 2x" media="(min-width: 1200px)">
+
+      <source class="canvas-bubbles__tablet" srcset="/hero-bgr-dots-tab.77cb7bd1.png 1x, /hero-bgr-dots-tab-2x.eceec0de.png 2x" media="(min-width: 768px)">
+
+      <source class="canvas-bubbles__mobile" srcset="/hero-bgr-dots-mob.528aff13.png 1x, /hero-bgr-dots-mob-2x.407be49e.png 2x" media="(max-width: 767px)">
+
+      <img src="/hero-bgr-dots-tab.77cb7bd1.png" alt="yellow bubbles" width="1200" height="384">
+    </picture>
+
+    <picture class="canvas-icecream">
+      <source class="canvas-icecream__desktop" srcset="/group-icecream.e8b01878.png 1x, /group-icecream-2x.fcb2601f.png 2x" media="(min-width: 1200px)">
+
+      <source class="canvas-icecream__tablet" srcset="/group-icecream-tab.f43718f3.png 1x, /group-icecream-tab-2x.8898c3b2.png 2x" media="(min-width: 768px)">
+
+      <source class="canvas-icecream__mobile" srcset="/group-icecream-mob.277148ca.png 1x, /group-icecream-mob-2x.516839c9.png 2x" media="(max-width: 767px)">
+
+      <img src="/group-icecream-tab.f43718f3.png" alt="icecream">
+    </picture>
+  </div>
+</section>
+
+<!--mobile_menu-->
+<div class="menu-backdrop js-menu-container" id="mobile-menu">
+  <div class="container menu-mask">
+    <div class="menu-container">
+      <div class="menu-container__wrap">
+        <div class="menu-container__top">
+          <a href="#" class="logo">
+            <picture>
+              <source srcset="/logo.c493797d.png 1x, /logo-2x.512da203.png 2x" media="(min-width: 1200px)">
+
+              <source srcset="/logo-tab.1668ecf3.png, /logo-tab-2x.fb9ff968.png 2x" media="(min-width: 768px)">
+
+              <source srcset="/logo-mob.40964210.png 1x, /logo-mob-2x.4c143730.png 2x" media="(max-width: 767px)">
+
+              <img class="header__logo" src="/logo.c493797d.png" alt="site logo icecream">
+            </picture>
+          </a>
+
+          <button class="menu-toggle js-close-menu" type="button">
+            <svg width="32" height="32" aria-label="переключає мобільне меню">
+              <use class="icon-cross" href="/icon.a422163e.svg#close-modal"></use>
+            </svg>
+          </button>
+        </div>
+
+        <nav class="menu-container__nav">
+          <ul class="menu-container__list">
+            <li class="menu-container__item">
+              <a class="menu-container__link js-close-menu" href="#home">Home</a>
+            </li>
+            <li class="menu-container__item">
+              <a class="menu-container__link js-close-menu" href="#about">How it's made?</a>
+            </li>
+            <li class="menu-container__item">
+              <a class="menu-container__link js-close-menu" href="#products">Our products</a>
+            </li>
+            <li class="menu-container__item">
+              <a class="menu-container__link js-close-menu" href="#contacts">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div>
+          <button type="button" class="header__button header__button--mobile js-open-modal js-close-menu" data-modal="2">
+            Buy now<svg width="12" height="12">
+              <use class="button__arrow" href="/icon.a422163e.svg#arrow-btn"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <main>
+      <!-- секція products -->
+<section class="products" id="products">
+  <div class="container products__container">
+    <p class="products__label">100&#37; natural</p>
+    <h2 class="title-section products__title-section">products</h2>
+    <ul class="products__list">
+      <li class="products__card">
+        <div class="products__ellipse"></div>
+        <h3 class="title products__title--card">ice cream</h3>
+        <div class="products__wrapper">
+          <p class="products__paragraph">
+            Soft ice cream with a delicate taste. Made with milk, cream, sugar
+            and natural stabilizer
+          </p>
+          <button type="button" class="products__button--arrow js-open-modal" data-modal="1">
+            <svg class="products__button--icon" width="40" height="15">
+              <use href="/icon.a422163e.svg#arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="products__card">
+        <div class="products__ellipse products__ellipse--orange"></div>
+        <h3 class="title products__title--card">ice coffee</h3>
+        <div class="products__wrapper">
+          <p class="products__paragraph">
+            Fragrant invigorating drink created from 100% natural ingredients
+            without the use of preservatives and flavor enhancers
+          </p>
+          <button type="button" class="products__button--arrow js-open-modal" data-modal="6">
+            <svg class="products__button--icon" width="40" height="15">
+              <use href="/icon.a422163e.svg#arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="products__card">
+        <div class="products__ellipse products__ellipse--red"></div>
+        <div class="products__wrapper">
+          <h3 class="title products__title--card">milkshakes</h3>
+          <p class="products__paragraph">
+            Sweet drinks based on milk and ice cream, supplemented with syrups,
+            fruits, berries and other sweets of your choice
+          </p>
+          <button type="button" class="products__button--arrow js-open-modal" data-modal="7">
+            <svg class="products__button--icon" width="40" height="15">
+              <use href="/icon.a422163e.svg#arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+  </ul></div>
+</section>
+
+      <section>
+  <div class="container container--bg-green container--about container--top-radius">
+    <p class="about__label" id="about">Tradition and love</p>
+    <h2 class="about__title">How it’s made?</h2>
+    <div class="about__wrap">
+      <div class="about__picture">
+        <picture class="about__image">
+          <source srcset="/about.1b44f950.png 1x, /about-2x.1262a16b.png 2x" media="(min-width:1200px)">
+          <source srcset="/about-tab.8b4728ef.png 1x, /about-tab-2x.6ea3c50d.png 2x" media="(min-width:768px)">
+          <source srcset="/about-mob.e71dfaa6.png 1x, /about-mob-2x.fa8cb171.png 2x" media="(max-width:767px)">
+          <img src="/about.1b44f950.png" alt="A cow in the pasture" width="490" height="490">
+        </picture>
+      </div>
+      <div class="about__content">
+        <div class="about__text-cover">
+          <p class="about__text about__text--first">
+            Ice is a place where you will become not only a little happier, but
+            also healthier. Health is the main value for us, and we follow it
+            when creating our handmade desserts.
+          </p>
+          <p class="about__text about__text--second">
+            We use traditional recipes and 100% natural ingredients. Our
+            products are so natural that they can be given to children from the
+            age of three years. Sweets lovers can expect 55 types of ice cream,
+            15 types of coffee and 23 milkshakes.
+          </p>
+          <p class="about__text about__text--third">
+            This is enough to choose ice cream and coffee for any mood!
+          </p>
+        </div>
+        <button type="button" class="about__button about__button--center js-open-modal" data-modal="3">
+          Read more<svg width="12" height="12">
+            <use class="button__arrow" href="/icon.a422163e.svg#arrow-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="advantages">
+  <div class="container advantages__container container--bottom-radius">
+    <h2 class="visually-hidden">Advantages</h2>
+    <ul class="advantages__list">
+      <li class="advantages__item advantages__item--cow">
+        <p class="advantages__title">721</p>
+        <p class="advantages__text">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+      <li class="advantages__item item advantages__item--weight">
+        <p class="advantages__title">16kg</p>
+        <p class="advantages__text">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+      <li class="advantages__item advantages__item--icecream">
+        <p class="advantages__title">84</p>
+        <p class="advantages__text">
+          Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="gallery">
+  <div class="container gallery__container">
+    <h2 class="visually-hidden">Gallery ice cream</h2>
+    <div class="swiper wrapper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <div class="slider__img">
+            <picture class="slider__picture">
+              <source media="(min-width:1200px)" srcset="/gallery1.6be1fc63.jpg 1x, /gallery1-2x.dc890014.jpg 2x">
+              <source media="(min-width:768px)" srcset="/gallery1-tab.403b5671.jpg 1x, /gallery1-tab-2x.8289a73b.jpg 2x">
+              <source media="(max-width: 379px)" srcset="/gallery1-mob.c0e9454f.jpg 1x, /gallery1-mob-2x.dcb63d2e.jpg 2x">
+              <source media="(max-width: 438px)" srcset="/gallery1-350.61ad096d.jpg 1x, /gallery1-350-2x.fd4c941f.jpg 2x">
+              <source media="(max-width: 767px)" srcset="/gallery1-400.87660f90.jpg 1x, /gallery1-400-2x.09e76bb8.jpg 2x">
+              <img src="/gallery1-mob.c0e9454f.jpg" class="slider__img" alt="Ice cream with fruits">
+            </picture>
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="slider__img">
+            <picture class="slider__picture">
+              <source media="(min-width:1200px)" srcset="/gallery2.ae58c5e8.jpg 1x, /gallery2-2x.221bf35d.jpg 2x">
+              <source media="(min-width:768px)" srcset="/gallery2-tab.154a5bac.jpg 1x, /gallery2-tab-2x.0fb84ddf.jpg 2x">
+              <source media="(max-width: 379px)" srcset="/gallery2-mob.d8029220.jpg 1x, /gallery2-mob-2x.6a11f061.jpg 2x">
+              <source media="(max-width: 438px)" srcset="/gallery2-350.7489eba4.jpg 1x, /gallery2-350-2x.0ac437f6.jpg 2x">
+              <source media="(max-width: 767px)" srcset="/gallery2-400.3c6e7b1a.jpg 1x, /gallery2-400-2x.218641ac.jpg 2x">
+              <img src="/gallery2-mob.d8029220.jpg" class="slider__img" alt="Lemon ice cream">
+            </picture>
+          </div>
+        </li>
+        <li class="swiper-slide ">
+          <div class="slider__img">
+            <picture class="slider__picture">
+              <source media="(min-width:1200px)" srcset="/gallery3.dc38b8a1.jpg 1x, /gallery3-2x.e7f97139.jpg 2x">
+              <source media="(min-width:768px)" srcset="/gallery3-tab.574fa645.jpg 1x, /gallery3-tab-2x.d7639b03.jpg 2x">
+              <source media="(max-width: 379px)" srcset="/gallery3-mob.ef5908d5.jpg 1x, /gallery3-mob-2x.a30c4f1d.jpg 2x">
+              <source media="(max-width: 438px)" srcset="/gallery3-350.674d08ae.jpg 1x, /gallery3-350-2x.60d4c1a4.jpg 2x">
+              <source media="(max-width: 767px)" srcset="/gallery3-400.b45844cb.jpg 1x, /gallery3-400-2x.d508c714.jpg 2x">
+              <img src="/gallery3-mob.ef5908d5.jpg" class="slider__img" alt="Ice cream with vanilla">
+            </picture>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+      <section class="customer__section">
+  <div class="customer container">
+    <h2 class="visually-hidden">Customers</h2>
+    <ul class="customer__item">
+      <li class="customer__list">
+        <img class="customer__img" srcset="/review1.c0235b17.png 1x, /review1-2x.baa78d47.png 2x" src="/review1.c0235b17.png" alt="beautiful girl">
+      </li>
+      <li class="customer__list">
+        <img class="customer__img" srcset="/review2.8be05b0a.png 1x, /review2-2x.61660a7b.png 2x" src="/review2.8be05b0a.png" alt="man eating icecream">
+      </li>
+      <li class="customer__list">
+        <img class="customer__img" srcset="/review3.76067e29.png 1x, /review3-2x.9d0989e7.png 2x" src="/review3.76067e29.png" alt="woman eating huzelnut icecream">
+      </li>
+      <li class="customer__list">
+        <img class="customer__img" srcset="/review4.7f3a9279.png 1x, /review4-2x.283fdeee.png 2x" src="/review4.7f3a9279.png" alt="man with popsicles">
+      </li>
+    </ul>
+    <ul class="customer__item2 customer__list-text">
+      <li class="customer__list">
+        <p class="customer__text">
+          I love visiting your cafe. You prepare the most delicious ice cream in
+          Los Angeles! In addition, you have beautiful serving, cozy atmosphere
+          and polite staff.
+        </p>
+      </li>
+      <li class="customer__list">
+        <p class="customer__text">
+          Every day we come to you with friends after classes in college. We
+          love your ice cream and casual atmosphere!
+        </p>
+      </li>
+      <li class="customer__list">
+        <p class="customer__text">
+          Ice cream is my passion! I love your chocolate hazelnut ice cream! And
+          I really like the excellent service - always served politely and
+          quickly!
+        </p>
+      </li>
+      <li class="customer__list customer__list-text">
+        <p class="customer__text">
+          I love eating popsicles on a hot day. Yours is always delicious. I
+          recommend your cafe to everyone I know.
+        </p>
+      </li>
+    </ul>
+    <ul class="customer__item3 customer__list-text">
+      <li class="customer__list">
+        <p class="customer__name">Emily, Los Angeles</p>
+      </li>
+      <li class="customer__list customer__list-text">
+        <p class="customer__name">Bryan, New-York</p>
+      </li>
+      <li class="customer__list customer__list-text">
+        <p class="customer__name">Diana, Chicago</p>
+      </li>
+      <li class="customer__list customer__list-text">
+        <p class="customer__name">Sam, Los Angeles</p>
+      </li>
+    </ul>
+    <div class="slick-dotees slick-dotted slick-slider"></div>
+  </div>
+</section>
+
+      <section class="contacts">
+  <h2 class="visually-hidden">Contacts</h2>
+  <div class="contacts__container" id="contacts">
+    <div class="container container--contacts">
+      <address class="contacts__address">
+        <ul class="contacts__contacts-list contacts-list">
+          <li class="contacts-list__contacts-item contacts-item">
+            <p class="contacts-item__place">cafe</p>
+            <div class="contacts-item__box contacts-item__box--paddbot">
+              <p class="contacts-item__label">Chicago</p>
+              <a href="https://goo.gl/maps/EURu3nSynFm9jHmbA" class="contacts-item__link" target="_blank" rel="noopener noreferrer nofollow">10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a>
+            </div>
+            <ul class="contacts-item__box contacts-item__box--border">
+              <li>
+                <p class="contacts-item__title">Monday - Friday</p>
+                <p class="contacts-item__clock">06:00 AM - 10:00 PM</p>
+              </li>
+              <li>
+                <p class="contacts-item__title">Saturday - Sunday</p>
+                <p class="contacts-item__clock">08:00 AM - 16:00 PM</p>
+              </li>
+            </ul>
+            <ul class="contacts-item__box contacts-item__box--paddtop">
+              <li>
+                <a href="tel:+610383766284" class="contacts-item__tel">+61(0) 383 766 284</a>
+              </li>
+              <li>
+                <a href="mailto:noreply@envato.com" class="contacts-item__mail">noreply@envato.com</a>
+              </li>
+            </ul>
+          </li>
+          <li class="contacts-list__contacts-item contacts-item">
+            <p class="contacts-item__place">food truck</p>
+            <div class="contacts-item__box contacts-item__box--paddbot">
+              <p class="contacts-item__label">Los Angeles</p>
+              <a href="https://goo.gl/maps/zhcWNBqxLeS6gavf7" class="contacts-item__link" target="_blank" rel="noopener noreferrer nofollow">1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</a>
+            </div>
+            <ul class="contacts-item__box contacts-item__box--border">
+              <li>
+                <p class="contacts-item__title">Monday - Friday</p>
+                <p class="contacts-item__clock">06:00 AM - 10:00 PM</p>
+              </li>
+              <li>
+                <p class="contacts-item__title">Saturday - Sunday</p>
+                <p class="contacts-item__clock">08:00 AM - 16:00 PM</p>
+              </li>
+            </ul>
+            <ul class="contacts-item__box contacts-item__box--paddtop">
+              <li>
+                <a href="tel:+610383766284" class="contacts-item__tel">+61(0) 383 766 284</a>
+              </li>
+              <li>
+                <a href="mailto:noreply@envato.com" class="contacts-item__mail">noreply@envato.com</a>
+              </li>
+            </ul>
+          </li>
+          <li class="contacts-list__contacts-item contacts-item">
+            <p class="contacts-item__place">cafe</p>
+            <div class="contacts-item__box contacts-item__box--paddbot">
+              <p class="contacts-item__label">New York</p>
+              <a href="https://goo.gl/maps/r42pkyf3kzEFfdTf8" class="contacts-item__link" target="_blank" rel="noopener noreferrer nofollow">726 Sterling Pl, Brooklyn, NY 11222, USA</a>
+            </div>
+            <ul class="contacts-item__box contacts-item__box--border">
+              <li>
+                <p class="contacts-item__title">Monday - Friday</p>
+                <p class="contacts-item__clock">06:00 AM - 10:00 PM</p>
+              </li>
+              <li>
+                <p class="contacts-item__title">Saturday - Sunday</p>
+                <p class="contacts-item__clock">08:00 AM - 16:00 PM</p>
+              </li>
+            </ul>
+            <ul class="contacts-item__box contacts-item__box--paddtop">
+              <li>
+                <a href="tel:+610383766284" class="contacts-item__tel">+61(0) 383 766 284</a>
+              </li>
+              <li>
+                <a href="mailto:noreply@envato.com" class="contacts-item__mail">noreply@envato.com</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </address>
+      <ul class="contacts__btns">
+        <li>
+          <button type="button" class="contacts__button js-open-modal" data-modal="4">
+            Our Locations
+            <svg width="12" height="12">
+              <use class="button__arrow" href="/icon.a422163e.svg#arrow-btn"></use>
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="contacts__button contacts__button--transparent js-open-modal" data-modal="5">
+            Franchise
+            <svg width="12" height="12">
+              <use class="button__arrow" href="/icon.a422163e.svg#arrow-btn"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container footer__container--green container--top-radius">
+    <div class="footer-main">
+      <div class="footer-main__titles">
+        <p class="footer-main__pretitle">homemade ice cream made</p>
+        <p class="footer-main__title">with passion</p>
+      </div>
+      <div class="footer-main__box">
+        <ul class="footer-soc">
+          <li class="footer-soc__item">
+            <a href="https://github.com/" class="footer-soc__link icon--hoverfocus">
+              <svg class="footer-soc__icon" width="32" height="32">
+                <use href="/icon.a422163e.svg#github"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc__item">
+            <a href="https://web.telegram.org/k/" class="footer-soc__link icon--hoverfocus">
+              <svg class="footer-soc__icon" width="32" height="32">
+                <use href="/icon.a422163e.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc__item">
+            <a href="https://www.facebook.com/" class="footer-soc__link icon--hoverfocus">
+              <svg class="footer-soc__icon" width="32" height="32">
+                <use href="/icon.a422163e.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <div class="footer-main__contact">
+          <p>
+            <span class="footer-main__text">Feel free to contact
+              <a href="tel:+610383766284" class="footer-main__tel">+61(0) 383 766 284</a></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main__border">
+      <div class="footer-main__border footer-main__border--position"></div>
+    </div>
+    <p class="footer-main__after-title">
+      &copy; 2022 - IceCream. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+    <!-- Modals -->
+<div class="overlay js-overlay-modal">
+  <!-- Modal ingridients -->
+
+<div class="modal modal--ingr" data-modal="1">
+  <button class="modal__btn-close js-modal-close" type="button" data-modal-close="">
+    <svg class="modal__btn-close-icon">
+      <use href="/icon.a422163e.svg#close-modal"></use>
+    </svg>
+  </button>
+
+  <div class="ingridient__wrapp">
+    <div class="ingridient__slider1">
+      <div class="modal__container-ingr">
+        <h2 class="modal__title modal__title--ingr">Chocolate icecream</h2>
+        <div class="ingredients">
+          <picture>
+            <source class="ingredients__img" srcset="/modal-ingr1.7772b505.jpg 1x, /modal-ingr1-2x.4966a2a1.jpg 2x" media="(min-width:1200px)">
+            <img class="ingredients__img" src="/modal-ingr1.7772b505.jpg" alt="ice cream chocolate">
+          </picture>
+        </div>
+        <ul class="callories">
+          <li class="callories__item">
+            <div class="round"><p class="round__text">320</p></div>
+            <p>kcal</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">4g</p></div>
+            <p>Protein</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">8,2g</p></div>
+            <p>Fats</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">40,4g</p></div>
+            <p>Carbs</p>
+          </li>
+        </ul>
+        <h3 class="table__name">Ingredients</h3>
+        <ul class="table">
+          <li class="table__item">
+            <p class="table__text">Milk</p>
+            <p class="table__text">100ml</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Belgian chocolate</p>
+            <p class="table__text">20g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Cream</p>
+            <p class="table__text">150 ml</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Cocoa powder</p>
+            <p class="table__text">30g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Sugar</p>
+            <p class="table__text">40g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Vanilla sugar</p>
+            <p class="table__text">10g</p>
+          </li>
+        </ul>
+      </div>
+      <div class="modal__container-ingr">
+        <h2 class="modal__title modal__title--ingr">Double icecream</h2>
+        <div class="ingredients">
+          <picture>
+            <source class="ingredients__img" srcset="/modal-ingr2.9450ad1d.jpg 1x, /modal-ingr2-2x.698ed734.jpg 2x" media="(min-width:1200px)">
+            <img class="ingredients__img" src="/modal-ingr2.9450ad1d.jpg" alt="ice cream double colors">
+          </picture>
+        </div>
+        <ul class="callories">
+          <li class="callories__item">
+            <div class="round"><p class="round__text">330</p></div>
+            <p>kcal</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">6g</p></div>
+            <p>Protein</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">8,7g</p></div>
+            <p>Fats</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">39,4g</p></div>
+            <p>Carbs</p>
+          </li>
+        </ul>
+        <h3 class="table__name">Ingredients</h3>
+        <ul class="table">
+          <li class="table__item">
+            <p class="table__text">Milk</p>
+            <p class="table__text">150ml</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Belgian chocolate</p>
+            <p class="table__text">10g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Cream</p>
+            <p class="table__text">100ml</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Cocoa powder</p>
+            <p class="table__text">20g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Sugar</p>
+            <p class="table__text">30g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Vanilla sugar</p>
+            <p class="table__text">20g</p>
+          </li>
+        </ul>
+      </div>
+      <div class="modal__container-ingr">
+        <h2 class="modal__title modal__title--ingr">Caramel icecream</h2>
+        <div class="ingredients">
+          <picture>
+            <source class="ingredients__img" srcset="/modal-ingr3.42a57de9.jpg 1x, /modal-ingr3-2x.3032d13e.jpg 2x" media="(min-width:1200px)">
+            <img class="ingredients__img" src="/modal-ingr3.42a57de9.jpg" alt="ice cream caramel">
+          </picture>
+        </div>
+        <ul class="callories">
+          <li class="callories__item">
+            <div class="round"><p class="round__text">330</p></div>
+            <p>kcal</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">5g</p></div>
+            <p>Protein</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">9,2g</p></div>
+            <p>Fats</p>
+          </li>
+          <li class="callories__item">
+            <div class="round"><p class="round__text">45,4g</p></div>
+            <p>Carbs</p>
+          </li>
+        </ul>
+        <h3 class="table__name">Ingredients</h3>
+        <ul class="table">
+          <li class="table__item">
+            <p class="table__text">Milk</p>
+            <p class="table__text">100ml</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Caramel</p>
+            <p class="table__text">10g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Cream</p>
+            <p class="table__text">150 ml</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">White chocolate</p>
+            <p class="table__text">20g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Sugar</p>
+            <p class="table__text">40g</p>
+          </li>
+          <li class="table__item">
+            <p class="table__text">Vanilla sugar</p>
+            <p class="table__text">20g</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="dots1"></div>
+  </div>
+  <!-- Form -->
+  <form class="form form-ingr">
+    <input class="form__input" type="text" name="username" placeholder="Name" required="">
+    <input class="form__input" type="tel" name="phone" placeholder="Phone" required="" pattern="^\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})$">
+    <!-- The pattern see in https://stackoverflow.com/questions/58248441/regex-template-for-ukrainian-phone-numbers -->
+
+    <textarea class="form__input form__input--multiline" name="comment" placeholder="Comment"></textarea>
+    <button class="form__button button" type="submit">Submit</button>
+  </form>
+</div>
+
+</div>
+
+<div class="overlay js-overlay-modal">
+  <!-- Modal buy now -->
+<div class="modal modal-buy-now" data-modal="2">
+  <button class="modal__btn-close js-modal-close" type="button" data-modal-close="">
+    <svg class="modal__btn-close-icon">
+      <use href="/icon.a422163e.svg#close-modal"></use>
+    </svg>
+  </button>
+
+  <h2 class="modal__title modal-buy-now__title">Buy now</h2>
+
+  <!-- Form -->
+  <form class="form buy-now__form">
+    <ul class="checkbox-list">
+      <li class="checkbox-list__item checkbox">
+        <label class="checkbox__label">
+          <picture>
+            <source srcset="/buy-now-modal1.c3212256.png 1x, /buy-now-modal1-2x.4b890a83.png 2x" media="(min-width:768px)">
+            <source srcset="/buy-now-modal1-mob.0bb1d560.png 1x, /buy-now-modal1-mob-2x.d26c623d.png 2x" media="(max-width:767px)">
+            <img class="checkbox__img" src="/buy-now-modal1.c3212256.png" alt="Ice cream balls in a waffel cone">
+          </picture>
+          <span class="checkbox__img-bg"></span>
+          <input class="checkbox__input visually-hidden" type="checkbox" name="ice-cream">
+          <span class="checkbox__text-box"> Ice cream </span>
+        </label>
+      </li>
+
+      <li class="checkbox-list__item checkbox">
+        <label class="checkbox__label">
+          <picture>
+            <source srcset="/buy-now-modal2.eab066ce.png 1x, /buy-now-modal2-2x.720b3e4e.png 2x" media="(min-width:768px)">
+            <source srcset="/buy-now-modal2-mob.06a665cd.png 1x, /buy-now-modal2-mob-2x.b8f4a235.png 2x" media="(max-width:767px)">
+            <img class="checkbox__img" src="/buy-now-modal2.eab066ce.png" alt="Transparent glass with ice coffee" width="130" height="130">
+          </picture>
+          <span class="checkbox__img-bg checkbox__img-bg--yellow"></span>
+          <input class="checkbox__input visually-hidden" type="checkbox" name="ice-coffee">
+          <span class="checkbox__text-box checkbox__text-box--yellow">
+            Ice coffee
+          </span>
+        </label>
+      </li>
+
+      <li class="checkbox-list__item checkbox">
+        <label class="checkbox__label">
+          <picture>
+            <source srcset="/buy-now-modal3.ab9fc377.png 1x, /buy-now-modal3-2x.a05becdb.png 2x" media="(min-width:768px)">
+            <source srcset="/buy-now-modal3-mob.881238c2.png 1x, /buy-now-modal3-mob-2x.39b94548.png 2x" media="(max-width:767px)">
+            <img class="checkbox__img" src="/buy-now-modal3.ab9fc377.png" alt="A glass of milkshake" width="130" height="130">
+          </picture>
+          <span class="checkbox__img-bg checkbox__img-bg--brown"></span>
+          <input class="checkbox__input visually-hidden" type="checkbox" name="milkshake">
+          <span class="checkbox__text-box checkbox__text-box--brown">
+            Milkshake
+          </span>
+        </label>
+      </li>
+    </ul>
+
+    <input class="form__input buy-now__form-input" type="text" name="username" placeholder="Name" required="">
+    <input class="form__input buy-now__form-input" type="tel" name="phone" placeholder="Phone" required="" pattern="^\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})$">
+    <!-- The pattern see in https://stackoverflow.com/questions/58248441/regex-template-for-ukrainian-phone-numbers -->
+    <textarea class="form__input form__input--multiline buy-now__form-input" name="comment" placeholder="Comment"></textarea>
+    <button class="form__button button" type="submit">Submit</button>
+  </form>
+</div>
+
+</div>
+
+<div class="overlay js-overlay-modal">
+  <!-- Modal read more -->
+<div class="modal modal-readMore" data-modal="3">
+  <button class="modal__btn-close js-modal-close" type="button" data-modal-close="">
+    <svg class="modal__btn-close-icon">
+      <use href="/icon.a422163e.svg#close-modal"></use>
+    </svg>
+  </button>
+
+  <h2 class="modal__title modal-readMore__title">How it’s made?</h2>
+
+  <!-- TODO: form -->
+  <iframe class="modal-readMore__video" src="https://www.youtube.com/embed/s87nFAfIzE4" title="YouTube video player"></iframe>
+
+  <p class="modal-readMore__text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+  </p>
+</div>
+
+</div>
+
+<div class="overlay js-overlay-modal">
+  <!-- Modal our location -->
+<div class="modal modal__our-location" data-modal="4">
+  <button class="modal__btn-close js-modal-close" type="button" data-modal-close="">
+    <svg class="modal__btn-close-icon">
+      <use href="/icon.a422163e.svg#close-modal"></use>
+    </svg>
+  </button>
+
+  <h2 class="modal__title modal__our-location-title">Our location</h2>
+
+  <iframe class="modal__our-location-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.2753037085654!2d34.50304681511746!3d49.57369565802887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f3118d0dd7b%3A0xbbb38ba2c686de10!2z0JzQvtGA0L7QttC10L3QvtC1!5e0!3m2!1sru!2sua!4v1663581490369!5m2!1sru!2sua" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <a class="modal__our-location-button" target="_blank" rel="noreferer noopener" href="https://goo.gl/maps/DsxchWQ912kzC5vu5">Open map</a>
+</div>
+
+</div>
+
+<div class="overlay js-overlay-modal">
+  <!-- Modal franchise -->
+<div class="modal modal-franchise" data-modal="5">
+  <button class="modal__btn-close js-modal-close" type="button" data-modal-close="">
+    <svg class="modal__btn-close-icon">
+      <use href="/icon.a422163e.svg#close-modal"></use>
+    </svg>
+  </button>
+
+  <h2 class="modal__title modal-franchise__title">
+    Thank you for your interest in owning an Ice Cream shop
+  </h2>
+  <p class="modal-franchise__descr">
+    Due to the overwhelming volume of franchise requests we are not accepting
+    new franchisee applications at this time. Once the application process
+    resumes, we will contact you for further information. Please fill out the
+    contact information below and we will reach out for additional information.
+    We appreciate your patience.
+  </p>
+  <!-- Form -->
+  <form class="form">
+    <input class="form__input" type="text" name="username" placeholder="Name" required="">
+    <input class="form__input" type="tel" name="phone" placeholder="Phone" required="" pattern="^\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})$">
+    <!-- The pattern see in https://stackoverflow.com/questions/58248441/regex-template-for-ukrainian-phone-numbers -->
+
+    <input class="form__input" type="email" name="email" placeholder="Email" required="" pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|&quot;(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*&quot;)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
+    <!-- The pattern see in https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression -->
+
+    <textarea class="form__input form__input--multiline" name="comment" placeholder="Comment"></textarea>
+    <button class="form__button button" type="submit">Submit</button>
+  </form>
+</div>
+
+</div>
+
+<div class="overlay js-overlay-modal">
+  <!-- Modal ingridients -->
+
+<div class="modal modal--ingr" data-modal="6">
+  <button class="modal__btn-close js-modal-close" type="button" data-modal-close="">
+    <svg class="modal__btn-close-icon">
+      <use href="/icon.a422163e.svg#close-modal"></use>
+    </svg>
+  </button>
+  <div class="ingridient__wrapp">
+    <div class="ingridient__slider2">
+      <div class="modal__container-ingr">
+      <h2 class="modal__title modal__title--ingr">Iced latte</h2>
+      <div class="ingredients">
+        <picture>
+          <source class="ingredients__img" srcset="/modal2-ingr1.bdedcc68.jpg 1x, /modal2-ingr1-2x.c6e55b5c.jpg 2x" media="(min-width:1200px)">
+
+          <img class="ingredients__img" src="/modal2-ingr1.bdedcc68.jpg" alt="ice-latte">
+        </picture>
+      </div>
+
+      <ul class="callories">
+        <li class="callories__item">
+          <div class="round"><p class="round__text">280</p></div>
+          <p>kcal</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">5g</p></div>
+          <p>Protein</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">5,3g</p></div>
+          <p>Fats</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">30,1g</p></div>
+          <p>Carbs</p>
+        </li>
+      </ul>
+      <h3 class="table__name">Ingredients</h3>
+      <ul class="table">
+        <li class="table__item">
+          <p class="table__text">Milk</p>
+          <p class="table__text">70ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Espresso</p>
+          <p class="table__text">50ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Cream</p>
+          <p class="table__text">30ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Ice</p>
+          <p class="table__text">50g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Nuts</p>
+          <p class="table__text">40g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Syrup</p>
+          <p class="table__text">30ml</p>
+        </li>
+      </ul>
+    </div>
+    <div class="modal__container-ingr">
+      <h2 class="modal__title modal__title--ingr">Iced raf</h2>
+      <div class="ingredients">
+        <picture>
+          <source class="ingredients__img" srcset="/modal2-ingr2.13ae6119.jpg 1x, /modal2-ingr2-2x.46b50d9c.jpg 2x" media="(min-width:1200px)">
+
+          <img class="ingredients__img" src="/modal2-ingr2.13ae6119.jpg" alt="ice-tonic">
+        </picture>
+      </div>
+
+      <ul class="callories">
+        <li class="callories__item">
+          <div class="round"><p class="round__text">290</p></div>
+          <p>kcal</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">7g</p></div>
+          <p>Protein</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">5,5g</p></div>
+          <p>Fats</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">33,1g</p></div>
+          <p>Carbs</p>
+        </li>
+      </ul>
+      <h3 class="table__name">Ingredients</h3>
+      <ul class="table">
+        <li class="table__item">
+          <p class="table__text">Milk</p>
+          <p class="table__text">50ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Espresso</p>
+          <p class="table__text">50ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Cream</p>
+          <p class="table__text">30ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Ice</p>
+          <p class="table__text">50g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Condensed milk</p>
+          <p class="table__text">40ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Vanilla sugar</p>
+          <p class="table__text">20ml</p>
+        </li>
+      </ul>
+    </div>
+    <div class="modal__container-ingr">
+      <h2 class="modal__title modal__title--ingr">Ice tonic</h2>
+      <div class="ingredients">
+        <picture>
+          <source class="ingredients__img" srcset="/modal2-ingr3.9a17cf67.jpg 1x, /modal2-ingr3-2x.5de968d6.jpg 2x" media="(min-width:1200px)">
+
+          <img class="ingredients__img" src="/modal2-ingr3.9a17cf67.jpg" alt="ice-raf">
+        </picture>
+      </div>
+
+      <ul class="callories">
+        <li class="callories__item">
+          <div class="round"><p class="round__text">240</p></div>
+          <p>kcal</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">3g</p></div>
+          <p>Protein</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">3,3g</p></div>
+          <p>Fats</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">20,1g</p></div>
+          <p>Carbs</p>
+        </li>
+      </ul>
+      <h3 class="table__name">Ingredients</h3>
+      <ul class="table">
+        <li class="table__item">
+          <p class="table__text">Tonic</p>
+          <p class="table__text">70ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Espresso</p>
+          <p class="table__text">50ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Lemon</p>
+          <p class="table__text">10g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Ice</p>
+          <p class="table__text">50g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Mint</p>
+          <p class="table__text">10g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Syrup (if desired)</p>
+          <p class="table__text">15ml</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="dots2"></div>
+</div>
+
+  <!-- Form -->
+  <form class="form form-ingr">
+    <input class="form__input" type="text" name="username" placeholder="Name" required="">
+    <input class="form__input" type="tel" name="phone" placeholder="Phone" required="" pattern="^\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})$">
+    <!-- The pattern see in https://stackoverflow.com/questions/58248441/regex-template-for-ukrainian-phone-numbers -->
+
+    <textarea class="form__input form__input--multiline" name="comment" placeholder="Comment"></textarea>
+    <button class="form__button button" type="submit">Submit</button>
+  </form>
+</div>
+
+</div>
+
+<div class="overlay js-overlay-modal">
+  <!-- Modal ingridients -->
+
+<div class="modal modal--ingr" data-modal="7">
+  <button class="modal__btn-close js-modal-close" type="button" data-modal-close="">
+    <svg class="modal__btn-close-icon">
+      <use href="/icon.a422163e.svg#close-modal"></use>
+    </svg>
+  </button>
+
+  <div class="ingridient__wrapp">
+    <div class="ingridient__slider3">
+      <div class="modal__container-ingr">
+      <h2 class="modal__title modal__title--ingr">Chocolate milkshake</h2>
+      <div class="ingredients">
+        <picture>
+          <source class="ingredients__img" srcset="/modal3-ingr1.64c25aeb.jpg 1x, /modal3-ingr1-2x.4969e716.jpg 2x" media="(min-width:1200px)">
+
+          <img class="ingredients__img" src="/modal3-ingr1.64c25aeb.jpg" alt="Chocolate milkshake">
+        </picture>
+      </div>
+
+      <ul class="callories">
+        <li class="callories__item">
+          <div class="round"><p class="round__text">270</p></div>
+          <p>kcal</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">5g</p></div>
+          <p>Protein</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">7,3g</p></div>
+          <p>Fats</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">40,1g</p></div>
+          <p>Carbs</p>
+        </li>
+      </ul>
+      <h3 class="table__name">Ingredients</h3>
+      <ul class="table">
+        <li class="table__item">
+          <p class="table__text">Milk</p>
+          <p class="table__text">70ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Ice cream</p>
+          <p class="table__text">50g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Cream</p>
+          <p class="table__text">30ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Belgian chocolate</p>
+          <p class="table__text">50g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Vanilla sugar</p>
+          <p class="table__text">20g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Syrup</p>
+          <p class="table__text">30ml</p>
+        </li>
+      </ul>
+    </div>
+    <div class="modal__container-ingr">
+      <h2 class="modal__title modal__title--ingr">Berry milkshake</h2>
+      <div class="ingredients">
+        <picture>
+          <source class="ingredients__img" srcset="/modal3-ingr2.a4c3825c.jpg 1x, /modal3-ingr2-2x.9c237f5b.jpg 2x" media="(min-width:1200px)">
+
+          <img class="ingredients__img" src="/modal3-ingr2.a4c3825c.jpg" alt="Berry milkshake">
+        </picture>
+      </div>
+
+      <ul class="callories">
+        <li class="callories__item">
+          <div class="round"><p class="round__text">300</p></div>
+          <p>kcal</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">10g</p></div>
+          <p>Protein</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">5,5g</p></div>
+          <p>Fats</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">36,1g</p></div>
+          <p>Carbs</p>
+        </li>
+      </ul>
+      <h3 class="table__name">Ingredients</h3>
+      <ul class="table">
+        <li class="table__item">
+          <p class="table__text">Milk</p>
+          <p class="table__text">50ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Berry</p>
+          <p class="table__text">50g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Cream</p>
+          <p class="table__text">30ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Syrup</p>
+          <p class="table__text">10mg</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Ice cream</p>
+          <p class="table__text">40g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Vanilla sugar</p>
+          <p class="table__text">20ml</p>
+        </li>
+      </ul>
+    </div>
+    <div class="modal__container-ingr">
+      <h2 class="modal__title modal__title--ingr">Mango milkshake</h2>
+      <div class="ingredients">
+        <picture>
+          <source class="ingredients__img" srcset="/modal3-ingr3.4bee655e.jpg 1x, /modal3-ingr3-2x.b1153217.jpg 2x" media="(min-width:1200px)">
+
+          <img class="ingredients__img" src="/modal3-ingr3.4bee655e.jpg" alt="mango milkshake">
+        </picture>
+      </div>
+
+      <ul class="callories">
+        <li class="callories__item">
+          <div class="round"><p class="round__text">260</p></div>
+          <p>kcal</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">3g</p></div>
+          <p>Protein</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">3,3g</p></div>
+          <p>Fats</p>
+        </li>
+        <li class="callories__item">
+          <div class="round"><p class="round__text">25,1g</p></div>
+          <p>Carbs</p>
+        </li>
+      </ul>
+      <h3 class="table__name">Ingredients</h3>
+      <ul class="table">
+        <li class="table__item">
+          <p class="table__text">Milk</p>
+          <p class="table__text">70ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Cream</p>
+          <p class="table__text">50ml</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Mango</p>
+          <p class="table__text">50g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Ice cream</p>
+          <p class="table__text">50g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Vanilla sugar</p>
+          <p class="table__text">10g</p>
+        </li>
+        <li class="table__item">
+          <p class="table__text">Syrup</p>
+          <p class="table__text">15ml</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="dots3"></div>
+</div>
+  <!-- Form -->
+  <form class="form form-ingr">
+    <input class="form__input" type="text" name="username" placeholder="Name" required="">
+    <input class="form__input" type="tel" name="phone" placeholder="Phone" required="" pattern="^\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})$">
+    <!-- The pattern see in https://stackoverflow.com/questions/58248441/regex-template-for-ukrainian-phone-numbers -->
+
+    <textarea class="form__input form__input--multiline" name="comment" placeholder="Comment"></textarea>
+    <button class="form__button button" type="submit">Submit</button>
+  </form>
+</div>
+
+</div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/index.739bf03c.js" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer=""></script>
+    <script src="/index.f9b3b06b.js" defer=""></script>
+    <script src="/index.05ef630e.js" defer=""></script>
+    <script src="/index.a89614e5.js" defer=""></script>
+    <script src="/index.c86c5a31.js" defer=""></script>
+    <script src="/index.a60f404a.js"></script>
+  </body>
+</html>
